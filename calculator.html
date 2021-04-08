@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator(CAGR & Absolute Return)</title>
+	<style>
+		#main{
+			   width:100%;
+			   height:100%;
+			   background-color:#86B6B1;
+			  
+		}
+		#me1{
+			width: 100%;
+			height:100%px;
+			background-color:#abcdef;
+		}
+	</style>
+	<script>
+		function cagr_calculation()
+		{
+            var val1=parseFloat(document.getElementById("value1").value);
+            var val2=parseFloat(document.getElementById("value2").value);
+            var val3=parseFloat(document.getElementById("value3").value);
+            var ansD=document.getElementById('answer');
+            ansD.value=(Math.pow((val2/val1),(1/val3))-1)*100;
+		}
+		function AbsoluteReturn_calculation()
+		{
+			var val1=parseFloat(document.getElementById("value1").value);
+            var val2=parseFloat(document.getElementById("value2").value);
+            var val3=parseFloat(document.getElementById("value3").value);
+            var ansD=document.getElementById('answer');
+            ansD.value=((val2-val1)/val1)*100;
+		}
+	</script>
+</head>
+<body>
+	<div id="main">
+		<table>
+			<tr>
+				<td style="color:white;background-color: black;font-style: italic;";>Initial Amount(Deposited)</td>
+				<td><input type="text" id="value1" name="value1" value=""></td>
+
+			</tr>
+	        <tr>
+	        	<td style="color:white;background-color: black;font-style: italic;";>Final Amount(Withdraw)</td>
+	        	<td><input type="text" id="value2" name="value2" value=""></td>
+	        </tr>
+	   <tr>
+	   	<td style="color:white;background-color: black;font-style: italic;"; >Duration(In-YEARS)</td>
+	   	<td><input type="text" id="value3" name="value3" value=""></td>
+	   </tr>
+	 <tr>
+	 	<td></td>
+	 	<td><input type="button" name="Sumbit" value="CAGR" onclick="cagr_calculation()">
+	 	<input type="button" name="Sumbit" value="ABR" onclick="AbsoluteReturn_calculation()"></td>
+	 </tr>
+	<tr>
+
+		<td style="color:cyan;background-color: black;font-style: italic;";>CAGR or Absolute Return:</td>
+		<td><input type="text" id="answer" name="answer" value=""></td>
+	</tr>
+    </table>
+</div>
+<div id="me1">
+   <p><span style="color:white;background-color: black;">CAGR (Compound Annual Growth Rate):</span><br>
+   Compound annual growth rate (CAGR) is the rate of return that would be required for an investment to grow from its beginning balance to its ending balance, assuming the profits were reinvested at the end of each year of the investment’s lifespan.</p>
+   <p><span style="color:blue;">KEY TAKEAWAYS:</span><br>
+(1)CAGR is one of the most accurate ways to calculate and determine returns for anything that can rise or fall in value over time.<br>
+(2)Investors can compare the CAGR of two alternatives in order to evaluate how well one stock performed against other stocks in a peer group or against a market index.<br>
+(3)CAGR does not reflect investment risk.<br>
+<p><span style="color:white;background-color: black;">What Is Absolute Return?</span><br>
+Absolute return is the return that an asset achieves over a specified period. This measure looks at the appreciation or depreciation, expressed as a percentage, that an asset, such as a stock or a mutual fund, achieves over a given period. Absolute return differs from relative return because it is concerned with the return of a particular asset and does not compare it to any other measure or benchmark.</p>
+<p><span style="color:blue";>KEY TAKEAWAYS</span><br>
+(1)Absolute return is the return that an asset achieves over a certain period.<br>
+(2)Returns can be positive or negative and may be considered unrelated to other market activities.</p>
+</p>
+</div>
+</body>
+</html>
