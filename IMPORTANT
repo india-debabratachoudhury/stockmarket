@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Indian_Stock_Market</title>
+	<style>
+		table{
+          border-collapse: collapse;
+          width: 80%;
+          margin-left: auto;
+          margin-right: auto;
+
+		}
+		caption{
+			    font-size: 2em;
+			    color: firebrick;
+		}
+		tr,th{
+			 border:3px solid grey;
+			 height: 30px;
+			
+		}
+		a{
+			color:green;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<caption>Indian Stock Market Related Websites</caption>
+		<tr style="background-color: lightblue;color:firebrick;">
+			<th>SL. No.</th>
+			<th>WEBSITE URL</th>
+			<th>LINK</th>
+		</tr>
+		<tr>
+			<th>1</th>
+			<th>https://www.moneycontrol.com/</th>
+			<th><a href="https://www.moneycontrol.com/" target="_blank">MONEYCONTROL</a></th>
+		</tr>
+		<tr>
+			<th>2</th>
+			<th>https://ticker.finology.in/</th>
+			<th><a href="https://ticker.finology.in/" target="_blank">FINOLOGY</a></th>
+		</tr>
+		<tr>
+			<th>3</th>
+			<th>https://www.livemint.com/</th>
+			<th><a href="https://www.livemint.com/" target="_blank">LIVEMINT</a></th>
+		</tr>
+		<tr>
+			<th>4</th>
+			<th>https://economictimes.indiatimes.com/</th>
+			<th><a href="https://economictimes.indiatimes.com/" target="_blank">ECONOMICTIMES</a></th>
+		</tr>
+		<tr>
+			<th>5</th>
+			<th>https://trendlyne.com/features/</th>
+			<th><a href="https://trendlyne.com/features/" target="_blank">TRENDLYNE</a></th>
+		</tr>
+		<tr>
+			<th>6</th>
+			<th>https://www.tickertape.in/</th>
+			<th><a href="https://trendlyne.com/features/" target="_blank">TICKERTAPE</a></th>
+		</tr>
+		<tr>
+			<th>7</th>
+			<th>https://stockedge.com/</th>
+			<th><a href="https://stockedge.com/" target="_blank">STOCKEDGE</a></th>
+		</tr>
+		<tr>
+			<th>8</th>
+			<th>https://www.screener.in/</th>
+			<th><a href="https://www.screener.in/" target="_blank">SCREENER</a></th>
+		</tr>
+		<tr>
+			<th>9</th>
+			<th>https://www.bqprime.com/markets</th>
+			<th><a href="https://www.bqprime.com/markets" target="_blank">BloombergQuint</a></th>
+		</tr>
+		<tr>
+			<th>10</th>
+			<th>https://chartink.com/</th>
+			<th><a href="https://chartink.com/" target="_blank">CHARTINK</a></th>
+		</tr>
+		<tr>
+			<th>11</th>
+			<th>https://in.investing.com/</th>
+			<th><a href="https://in.investing.com/" target="_blank">INVESTING</a></th>
+		</tr>
+		<tr>
+			<th>12</th>
+			<th>https://in.tradingview.com/</th>
+			<th><a href="https://in.tradingview.com/" target="_blank">TRADINGVIEW</a></th>
+		</tr>
+		<tr>
+			<th>13</th>
+			<th>https://www.nseindia.com/</th>
+			<th><a href="https://www.nseindia.com/" target="_blank">NSE</a></th>
+		</tr>
+		<tr>
+			<th>14</th>
+			<th>https://www.bseindia.com/</th>
+			<th><a href="https://www.bseindia.com/" target="_blank">BSE</a></th>
+		</tr>
+		<tr>
+			<th>15</th>
+			<th>https://www.niftyindices.com/</th>
+			<th><a href="https://www.niftyindices.com/" target="_blank">NIFTY_INDICES</a></th>
+		</tr>
+		<tr>
+			<th>16</th>
+			<th>https://www.mcxindia.com/home</th>
+			<th><a href="https://www.mcxindia.com/home" target="_blank">MCX</a></th>
+		</tr>
+		<tr>
+			<th>17</th>
+			<th>https://www.investopedia.com/articles/stocks/09/indian-stock-market.asp</th>
+			<th><a href="https://www.investopedia.com/articles/stocks/09/indian-stock-market.asp" target="_blank">INVESTOPEDIA</a></th>
+		</tr>
+	</table>
+
+</body>
+</html>
